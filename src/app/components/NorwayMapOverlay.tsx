@@ -40,13 +40,13 @@ function NorwayMapOverlay() {
     [nodes[3], { x: 300, y: 750 }, nodes[5]],
     [nodes[4], { x: 250, y: 700 }, nodes[5]],
     [nodes[5], { x: 500, y: 880 }, nodes[12]],
-    [nodes[6], { x: 250, y: 880 }, nodes[5]],
-    [nodes[7], { x: 290, y: 880 }, nodes[5]],
-    [nodes[8], { x: 600, y: 200 }, nodes[9]],
-    [nodes[9], { x: 290, y: 880 }, nodes[10]],
-    [nodes[10], { x: 340, y: 600 }, nodes[11]],
-    [nodes[11], { x: 340, y: 1000 }, nodes[12]],
-    [nodes[12], { x: 340, y: 1000 }, nodes[5]],
+    [nodes[6], { x: 250, y: 800 }, nodes[5]],
+    [nodes[7], { x: 250, y: 850 }, nodes[5]],
+    [nodes[8], { x: 600, y: 300 }, nodes[9]],
+    [nodes[9], { x: 550, y: 400 }, nodes[10]],
+    [nodes[10], { x: 530, y: 600 }, nodes[11]],
+    [nodes[11], { x: 400, y: 800 }, nodes[12]],
+    [nodes[12], { x: 340, y: 900 }, nodes[5]],
   ];
 
   function roundedPath(points: { x: number; y: number }[], radius = 22) {
@@ -137,7 +137,7 @@ function NorwayMapOverlay() {
         <h3 className="text-2xl font-bold mb-4">Visste du at...</h3>
         <p className="mb-4">
           «Dekningsundersøkelsen for 2024 viste at fiberdekningen nasjonalt var
-          på 91 prosent» (Nasjonal kommunikasjonsmyndighet, 2025).
+          på 91 prosent» [<a href="#ref6" className="text-blue-600 hover:underline">6</a>].
         </p>
         <p className="mb-4">
           Dette betyr at en stor del av den norske befolkningen allerede har

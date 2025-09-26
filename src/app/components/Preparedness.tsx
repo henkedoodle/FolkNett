@@ -5,7 +5,7 @@ import { Network, Activity } from "lucide-react";
 
 export default function Preparedness() {
   return (
-    <section id="preparedness" className="mx-auto max-w-6xl px-4 py-0">
+    <div className="mx-auto max-w-6xl px-4 py-0">
       <p className="text-slate-700 text-lg leading-relaxed">
         For å håndtere en ekstrem krisesituasjon er det avgjørende at samfunnet
         forbereder seg på forhånd. Dersom alle husholdninger sender meldinger
@@ -87,6 +87,6 @@ export default function Preparedness() {
           </div>
         </div>
       </motion.div>
-    </section>
+    </div>
   );
 }

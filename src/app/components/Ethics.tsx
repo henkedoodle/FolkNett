@@ -20,7 +20,12 @@ export default function Ethics() {
         skape tillit.
       </p>
       <p className="text-slate-700 mb-3">
-        For å ivareta sikkerheten i kommunikasjonen mellom befolkningen og nødetatene, vil frivillige i HUB’ene motta krypterte nødsignaler i form av en enkel kode. Denne koden kan raskt og sikkert dekrypteres hos nødetatene ved hjelp av papirløsninger, uten behov for avansert teknologi. På denne måten sikres både robusthet og personvern, samtidig som nødsignalene forblir tilgjengelige og forståelige i en krisesituasjon.
+        For å ivareta sikkerheten i kommunikasjonen mellom befolkningen og nødetatene,
+         vil frivillige i HUB’ene motta krypterte nødsignaler i form av en enkel kode. 
+         Denne koden kan raskt og sikkert dekrypteres hos nødetatene ved hjelp
+          av papirløsninger, uten behov for avansert teknologi. På denne måten sikres 
+          både robusthet og personvern, samtidig som nødsignalene forblir tilgjengelige 
+          og forståelige i en krisesituasjon.
       </p>
       <p className="text-slate-700">
         Slik kan vi utnytte teknologiens styrker uten å gå på bekostning av

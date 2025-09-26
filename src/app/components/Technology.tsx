@@ -21,7 +21,7 @@ export default function Technology() {
           <p className="text-slate-700 mb-3">
             Fiberkabler består i praksis av to kabler i én, noe som muliggjør toveis kommunikasjon.
             Hovedsakelig brukes enveiskommunikasjon fra staten til privatpersoner, men systemet
-            kan også sende nødbeskjeder til helsevesenet. [<a href="#ref1" className="text-blue-600 hover:underline">1</a>]
+            kan også sende nødbeskjeder til helsevesenet. [<a href="#ref8" className="text-blue-600 hover:underline">8</a>] 
           </p>
           <a
             href="https://snl.no/fiberoptikk"
@@ -38,7 +38,7 @@ export default function Technology() {
           <Brain className="h-10 w-10 text-indigo-600 mb-4" />
           <h3 className="text-xl font-semibold mb-2">Kunstig intelligens</h3>
           <p className="text-slate-700 mb-3">
-            Kunstig intelligens (KI) er et felt innen datateknologi som utvikler systemer og programmer som kan utføre oppgaver som normalt krever menneskelig intelligens. Dette kan inkludere læring, problemløsning, mønstergjenkjenning, språkforståelse, beslutningstaking og tilpasning til nye situasjoner. I den tiden vi er nå, akselerer bruken og omfanget av KI enormt. Dette åpner opp for et nytt landskap av løsninger og tilnærminger vi før ikke trodde var mulig.
+            Kunstig intelligens (KI) er et felt innen datateknologi som utvikler systemer og programmer som kan utføre oppgaver som normalt krever menneskelig intelligens. Dette kan inkludere læring, problemløsning, mønstergjenkjenning, språkforståelse, beslutningstaking og tilpasning til nye situasjoner. I den tiden vi er nå, akselerer bruken og omfanget av KI enormt. Dette åpner opp for et nytt landskap av løsninger og tilnærminger vi før ikke trodde var mulig. [<a href="#ref9" className="text-blue-600 hover:underline">9</a>]
           </p>
           <a
             href="https://snl.no/kunstig_intelligens"

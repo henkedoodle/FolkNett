@@ -75,7 +75,7 @@ function StickyNav({ active }: { active: string }) {
   const items = [
     { id: "challenge", label: "Utfordringer" },
     { id: "fiber", label: "Fiberdekning" },
-    { id: "solution", label: "Løsningen" },
+    { id: "solution", label: "Løsning" },
     { id: "preparedness", label: "Beredskap" },
     { id: "organization", label: "Organisering" },
     { id: "sustainability", label: "Bærekraft" },
@@ -86,7 +86,7 @@ function StickyNav({ active }: { active: string }) {
   return (
     <div className="fixed top-0 left-0 right-0 z-50 backdrop-blur bg-white/70 border-b border-slate-200">
       <div className="mx-auto max-w-6xl px-4 flex items-center h-14">
-        <div className="font-semibold">FolkNett.no</div>
+        <div className="font-semibold">FolkNett.com</div>
         <div className="ml-auto flex items-center gap-2 overflow-x-auto">
           {items.map((it) => (
             <a
@@ -128,6 +128,7 @@ export default function Page() {
   "hero",
   "map",
   "faq",
+  "fiber",
   "aboutus",
   "challenge",
   "sustainability",
@@ -139,6 +140,7 @@ export default function Page() {
   "technology",
   "solution",
   "introduction",
+  "preparedness"
 ];
 
   const active = useSectionSpy(sections);
@@ -195,7 +197,6 @@ export default function Page() {
         <IntroSection />
       </section>
 
-     
 
       {/* Utfordringen */}
       <section id="challenge" className="mx-auto max-w-6xl px-4 py-20">
@@ -221,7 +222,7 @@ export default function Page() {
       </section>
 
       {/* Teknologi */}
-      <section id="technology" className="mx-auto max-w-6xl px-4 py-6">
+      <section id="solution" className="mx-auto max-w-6xl px-4 py-6">
         <Technology />
       </section>
       
@@ -238,7 +239,7 @@ export default function Page() {
       </section>
 
       {/* Internasjonalt samarbeid */}
-      <section id="international" className="mx-auto max-w-6xl px-4 py-0">
+      <section id="organization" className="mx-auto max-w-6xl px-4 py-0">
         <h3 className="text-3xl md:text-3xl font-bold mb-8">
           Internasjonalt og regionalt samarbeid
         </h3>
@@ -273,7 +274,7 @@ export default function Page() {
               Hvorfor er ikke radio tilstrekkelig under en slik krise? 
             </summary>
             <div className="px-5 pb-5 text-slate-700">
-              Radio er nyttig for rask, enveis kommunikasjon fra myndighetene til befolkningen, men den har klare begrensninger. Den er avhengig av strøm i sendere og mellomstasjoner, sårbar for jamming og sabotasje, og gir ingen mulighet for at innbyggerne kan sende nødsignaler tilbake. I tillegg kan radiosignaler forstyrres av elektromagnetiske felt – for eksempel fra solstormer, lyn eller til og med menneskeskapte kilder. Fiber derimot er gravd ned under bakken, skjermet mot slike forstyrrelser, og signalene sendes som lys fremfor elektrisitet. Dermed muliggjør fiber sikker, toveis kommunikasjon mellom husholdninger og nødetater. Den beste beredskapen oppnås ved å kombinere radios brede rekkevidde med fibers robuste tilbakemeldingssystem – en redundans som styrker samfunnets motstandskraft i kriser. 
+              Radio er nyttig for rask, enveis kommunikasjon fra myndighetene til befolkningen, men den har klare begrensninger. Den er avhengig av strøm i sendere og mellomstasjoner, sårbar for jamming og sabotasje, og gir ingen mulighet for at innbyggerne kan sende nødsignaler tilbake. I tillegg kan radiosignaler forstyrres av elektromagnetiske felt – for eksempel fra solstormer, lyn eller til og med menneskeskapte kilder [<a href="#ref11" className="text-blue-600 hover:underline">11</a>]. Fiber derimot er gravd ned under bakken, skjermet mot slike forstyrrelser, og signalene sendes som lys fremfor elektrisitet. Dermed muliggjør fiber sikker, toveis kommunikasjon mellom husholdninger og nødetater. Den beste beredskapen oppnås ved å kombinere radios brede rekkevidde med fibers robuste tilbakemeldingssystem – en redundans som styrker samfunnets motstandskraft i kriser. 
             </div>
           </details>
           <details className="group">
@@ -326,7 +327,7 @@ export default function Page() {
             Hva er forskjellen mellom FolkNett og nødnett?
             </summary>
             <div className="px-5 pb-5 text-slate-700">
-            Nødnett er det nasjonale kommunikasjonsnettet for politi, brann og helse. Det er robust, med redundans og reservestrøm, men er kun laget for samarbeid mellom nødetater, ikke for direkte kontakt med befolkningen. FolkNett utfyller dette ved å gi innbyggerne en enkel kanal til å sende SOS-varsler og motta livsviktig informasjon selv når strøm, internett og mobilnett er nede.
+            Nødnett er det nasjonale kommunikasjonsnettet for politi, brann og helse. Det er robust, med redundans og reservestrøm, men er kun laget for samarbeid mellom nødetater, ikke for direkte kontakt med befolkningen. FolkNett utfyller dette ved å gi innbyggerne en enkel kanal til å sende SOS-varsler og motta livsviktig informasjon selv når strøm, internett og mobilnett er nede [<a href="#ref5" className="text-blue-600 hover:underline">5</a>] [<a href="#ref7" className="text-blue-600 hover:underline">7</a>] [<a href="#ref10" className="text-blue-600 hover:underline">10</a>].
             </div>
           </details>
         </div>
@@ -336,10 +337,16 @@ export default function Page() {
       <Source />
 </section>
 
+    <div className=" shadow-sm p-20">
+      <p className="text-slate-700 mb-3">
+        I denne besvarelsen er det brukt KI for bildeproduksjon, kodehjelp og skriveformulering. Selv om KI er blitt brukt til formulering av tekst, er innholdet og ideene skapt av oss.
+      </p>
+    </div>
+
       {/* FOOTER */}
       <footer className="py-10 border-t border-slate-200">
         <div className="mx-auto max-w-6xl px-4 text-sm text-slate-600">
-          © 2025 FolkNett
+          © 2025 FolkNett 
         </div>
       </footer>
     </div>

@@ -18,7 +18,7 @@ const items: Item[] = [
     sdg: 3,
     title: "GOD HELSE OG LIVSKVALITET",
     body:
-      "Løsningen sikrer at befolkningen kan varsle nødetater og få hjelp raskt selv under kriser, noe som redder liv. KI-basert prioritering gjør at de mest sårbare får hjelp først, og dedikerte kommunikasjonskanaler sørger for rask respons ved medisinske nødstilfeller.",
+      "Løsningen sikrer at befolkningen kan varsle nødetater og få hjelp raskt selv under kriser, noe som redder liv. KI-basert prioritering gjør at de mest sårbare får hjelp først, og dedikerte kommunikasjonskanaler sørger for rask respons ved medisinske nødstilfeller. [1]"  ,
     image: "/sdg/goal3.png",
   },
   {
@@ -26,7 +26,7 @@ const items: Item[] = [
     sdg: 9,
     title: "INDUSTRI, INNOVASJON OG INFRASTRUKTUR",
     body:
-      "Løsningen utnytter eksisterende fiberinfrastruktur på nye måter, og kombinerer den med KI og lavteknologiske løsninger. Ved å bygge videre på robust fiberdekning og innføre batteridrevne enheter, skapes det en innovativ og bærekraftig kommunikasjonsløsning.",
+      "Løsningen utnytter eksisterende fiberinfrastruktur på nye måter, og kombinerer den med KI og lavteknologiske løsninger. Ved å bygge videre på robust fiberdekning og innføre batteridrevne enheter, skapes det en innovativ og bærekraftig kommunikasjonsløsning.[2]",
     image: "/sdg/goal9.png",
   },
   {
@@ -34,7 +34,7 @@ const items: Item[] = [
     sdg: 11,
     title: "BÆREKRAFTIGE LOKALSAMFUNN",
     body:
-      "Krisetid krever samarbeid mellom innbyggere, myndigheter og nødetater. FolkNett gir lokalsamfunn verktøy for å dele og motta informasjon, og husholdninger kan sende nødsignaler selv uten strøm eller moderne nettverk.",
+      "Krisetid krever samarbeid mellom innbyggere, myndigheter og nødetater. FolkNett gir lokalsamfunn verktøy for å dele og motta informasjon, og husholdninger kan sende nødsignaler selv uten strøm eller moderne nettverk.[3]",
     image: "/sdg/goal11.png",
   },
   {
@@ -42,7 +42,7 @@ const items: Item[] = [
     sdg: 16,
     title: "FRED, RETTFERDIGHET OG VELFUNGERENDE INSTITUSJONER",
     body:
-      "Tillit og stabilhet i samfunnet styrkes når folk vet at kommunikasjonen ikke streiker, selv ved en krise.",
+      "Tillit og stabilhet i samfunnet styrkes når folk vet at kommunikasjonen ikke streiker, selv ved en krise. [4]",
     image: "/sdg/goal16.png",
   },
 ];
