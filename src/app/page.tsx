@@ -260,7 +260,7 @@ export default function Page() {
 
       {/* About us */}
       <section id="aboutus" className="mx-auto max-w-6xl px-4 py-20">
-        <h2 className="text-3xl md:text-5xl font-bold mb-8">Om oss</h2>
+        <h2 className="text-3xl md:text-5xl font-bold mb-8">Dream Bernoulli</h2>
         {/* IKKE legg grid her hvis AboutUs har egen layout */}
         <AboutUs />
       </section>
@@ -346,7 +346,7 @@ export default function Page() {
       {/* FOOTER */}
       <footer className="py-10 border-t border-slate-200">
         <div className="mx-auto max-w-6xl px-4 text-sm text-slate-600">
-          © 2025 FolkNett 
+          © 2025 FolkNett av Dream Bernoulli
         </div>
       </footer>
     </div>
