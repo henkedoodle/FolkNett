@@ -332,14 +332,6 @@ export default function Page() {
         </div>
       </section>    
 
-      <main className="min-h-screen w-full max-w-5x flex items-center justify-center bg-black">
-      <video
-        src="/video.mp4"
-        playsInline
-        controls
-        className="w-full max-w-7xl rounded-2xl shadow-lg"
-      />
-    </main>
 <section className="mx-auto max-w-6xl px-4 py-20">
       <Source />
 </section>
